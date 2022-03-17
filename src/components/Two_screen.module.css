@@ -1,0 +1,19 @@
+.content {
+  margin: 120px auto 0;
+  max-width: 1200px;
+}
+h1 {
+  text-align: center;
+}
+.review img {
+  max-width: 80px;
+}
+.review {
+  display: flex;
+  margin: 20px 0;
+  align-content: center;
+  align-items: center;
+}
+.review p {
+  margin-left: 10px;
+}
