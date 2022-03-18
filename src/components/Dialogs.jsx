@@ -1,17 +1,16 @@
 import React from 'react';
-import dialog from './Dialogs.module.css';
-import Header from './Header';
-import Fisrt_screen from './Fisrt_screen';
+import Chats from './Chats';
+import Message from './Message';
+import s from './dialogs.module.css';
 
 const Dialogs = () => {
     return (
-        <div>
-            <div className='dialogs'>
-            Dialog
-            </div>
+        <div className={s.dialogs}>
+            <Chats/>
+            <Message/>
         </div>
 
-        )
+    )
 }
 
 export default Dialogs;

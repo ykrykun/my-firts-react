@@ -1,0 +1,9 @@
+.dialogs {
+    display: flex;
+}
+.chats {
+    flex: 1 1 30%;
+}
+.message {
+    flex: 1 1 70%;
+}
