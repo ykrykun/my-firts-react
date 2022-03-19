@@ -15,14 +15,12 @@ const Message = (props) => {
         {id: 1, mes: 'Text 4'},
         {id: 1, mes: 'Text 5'}
     ]
+
+    let messagesEl = messagesData.map ( m => <Text mes={m.mes} />);
+
     return (
         <div className={s.message}>
-            <Text mes={messagesData[0].mes}/>
-            <Text mes={messagesData[1].mes}/>
-            <Text mes={messagesData[2].mes}/>
-            <Text mes={messagesData[3].mes}/>
-            <Text mes={messagesData[4].mes}/>
-
+            {messagesEl}
         </div>
     )
 }

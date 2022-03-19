@@ -12,8 +12,8 @@ const App = (props) => {
             <div className='app-wrapper'>
                 <Header/>
                 <Routes>
-                    <Route path='/' exact element={<Home/>}/>
-                    <Route path='/dialogs' element={<Dialogs/>}/>
+                    <Route path='/' exact element={<Home/>} />
+                    <Route path='/dialogs' element={<Dialogs/>} />
                 </Routes>
             </div>
         </BrowserRouter>);
