@@ -1,9 +1,11 @@
 .dialogs {
     display: flex;
+    padding: 15px;
+    margin-top: 30px;
 }
 .chats {
-    flex: 1 1 30%;
+    flex: 0 0 15%;
 }
 .message {
-    flex: 1 1 70%;
+    flex: 0 0 85%;
 }

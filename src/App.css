@@ -1,55 +1,57 @@
 body {
-/*background-color: darkgray;*/
-background-image: url("https://assets.website-files.com/620cad38e924f0d1dbd48300/620cad38e924f04c9ad48443_Mask%20Group.svg");
-padding-bottom: 140px;
-background-position: 50% 50%;
-background-size: cover;
-background-repeat: no-repeat;
+    /*background-color: darkgray;*/
+    background-image: url("https://assets.website-files.com/620cad38e924f0d1dbd48300/620cad38e924f04c9ad48443_Mask%20Group.svg");
+    padding-bottom: 140px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 .content {
-  text-align: center;
-  max-width: 1200px;
-  margin: 0 auto;
+    text-align: left!important;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .nav a {
-  display: block;
+    display: block;
 }
+
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
