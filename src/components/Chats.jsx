@@ -12,15 +12,16 @@ const DialogItem = (props) => {
     )
 }
 const Chats = (props) => {
-    let dialogsData = [
-        {id: 1, name: 'Name 1'},
-        {id: 2, name: 'Name 2'},
-        {id: 3, name: 'Name 3'},
-        {id: 4, name: 'Name 4'},
-        {id: 5, name: 'Name 5'}
-    ]
+    //
+    // let dialogsData = [
+    //     {id: 1, name: 'Name 1'},
+    //     {id: 2, name: 'Name 2'},
+    //     {id: 3, name: 'Name 3'},
+    //     {id: 4, name: 'Name 4'},
+    //     {id: 5, name: 'Name 5'}
+    // ]
 
-    let dialogEl = dialogsData.map( d => <DialogItem name={d.name} id={d.id}/>);
+    let dialogEl = props.state.username.map( d => <DialogItem name={d.name} id={d.id}/>);
 
     return (
         <div className={s.chats}>

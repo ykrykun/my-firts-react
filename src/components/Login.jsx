@@ -1,4 +1,6 @@
 import React from "react";
+import {Button} from "./Button/button";
+import {iconTypes} from "./Button/icons";
 
 export default class Login extends React.Component {
     constructor(props) {
@@ -24,7 +26,7 @@ export default class Login extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='content'>
                 <h2>LOGIN</h2>
                 <form onSubmit={this.handleSubmit}>
                     <label>
@@ -38,6 +40,12 @@ export default class Login extends React.Component {
                     </label>
                     <input type='submit' value='Отправить'/>
                 </form>
+                <div>
+                    <Button size="small" iconType={iconTypes.packman}>PACKMAN</Button>
+                    <Button color="primary" iconType={iconTypes.plus}>NEW BTN</Button>
+                    {/*<Icon type={iconTypes.packman} fill="red"  />*/}
+                    {/*<Icon type={iconTypes.plus} fill="green" />*/}
+                </div>
             </div>
         );
     }

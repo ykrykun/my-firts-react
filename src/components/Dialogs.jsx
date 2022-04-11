@@ -4,6 +4,7 @@ import Message from './Message';
 import s from './dialogs.module.css';
 
 const Dialogs = () => {
+    debugger
     // let dialogsData = [
     //     {id: 1, name: 'Name 1'},
     //     {id: 2, name: 'Name 2'},
@@ -14,8 +15,8 @@ const Dialogs = () => {
     return (
         <div className='content'>
             <div className={s.dialogs}>
-                <Chats/>
-                <Message/>
+                <Chats />
+                <Message />
             </div>
         </div>
 
